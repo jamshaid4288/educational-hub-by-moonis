@@ -1,4 +1,4 @@
-import { Book, TestTube, Phone, Mail, Atom, GraduationCap, UserRound } from "lucide-react";
+import { Book, TestTube, Phone, Mail, Atom, GraduationCap, UserRound, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
@@ -94,12 +94,20 @@ const Index = () => {
         <div className="container mx-auto px-4 py-16 text-center">
           <h2 className="text-3xl font-bold text-white mb-8">Get In Touch</h2>
           <div className="flex justify-center gap-8">
-            <a href="tel:0313-9521892" className="flex items-center text-white hover:text-purple-400">
-              <Phone className="mr-2" /> 0313-9521892
-            </a>
-            <a href="mailto:contact@educationalhub.com" className="flex items-center text-white hover:text-purple-400">
-              <Mail className="mr-2" /> contact@educationalhub.com
-            </a>
+            <Button 
+              variant="outline" 
+              className="bg-[#7E69AB] hover:bg-[#9b87f5] text-white border-[#1A1F2C] hover:border-[#9b87f5] transition-colors duration-300"
+            >
+              <Phone className="mr-2 text-white" /> 
+              Call Us: 0313-9521892
+            </Button>
+            <Button 
+              variant="outline" 
+              className="bg-[#6E59A5] hover:bg-[#9b87f5] text-white border-[#1A1F2C] hover:border-[#9b87f5] transition-colors duration-300"
+            >
+              <MessageCircle className="mr-2 text-white" /> 
+              Contact@educationalhub.com
+            </Button>
           </div>
         </div>
       </div>
