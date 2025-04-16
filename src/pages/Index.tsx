@@ -108,14 +108,14 @@ const Index = () => {
               className="bg-[#7E69AB] hover:bg-[#9b87f5] text-white border-[#1A1F2C] hover:border-[#9b87f5] transition-colors duration-300"
             >
               <Phone className="mr-2 text-white" /> 
-              Call Us: 0313-9521892
+              Call Us: +92 303 4672828
             </Button>
             <Button 
               variant="outline" 
               className="bg-[#6E59A5] hover:bg-[#9b87f5] text-white border-[#1A1F2C] hover:border-[#9b87f5] transition-colors duration-300"
             >
               <MessageCircle className="mr-2 text-white" /> 
-              Contact@educationalhub.com
+              moonisraza512@gmail.com
             </Button>
           </div>
         </div>
