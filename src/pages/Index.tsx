@@ -35,9 +35,13 @@ const Index = () => {
             Expert Chemistry & Biology Tutoring
           </p>
           <div className="flex justify-center gap-4">
-            <Button className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white border-none shadow-lg hover:shadow-xl transition-all duration-300">
-              <Atom className="mr-2" /> Start Learning
-            </Button>
+          <Button
+  onClick={() => window.open('https://wa.me/qr/7SSOH4V76YVPL1', '_blank')}
+  className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white border-none shadow-lg hover:shadow-xl transition-all duration-300"
+>
+  <Atom className="mr-2" /> Start Learning
+</Button>
+
             <Button 
               variant="outline" 
               className="bg-transparent text-white border-2 border-white hover:bg-white/10 transition-colors duration-300"
