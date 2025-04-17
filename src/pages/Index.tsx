@@ -105,7 +105,7 @@ const Index = () => {
 
         {/* Contact Section */}
         <div id="contact-section" className="container mx-auto px-4 py-16 text-center">
-          <h2 className="text-3xl font-bold text-white mb-8">Get In Touch</h2>
+          <h2 className="text-3xl font-bold text-white mb-8">Get In Touchhhh</h2>
           <div className="flex justify-center gap-8">
             <Button 
               variant="outline" 
